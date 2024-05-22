@@ -6,3 +6,9 @@ jobs:
       - type: script
         script-content: echo 'success'
     runs-on: Linux-Medium
+  Job2:
+    name: Job 2
+    steps:
+      - type: script
+        script-content: echo 'success2'
+    runs-on: Linux-Medium
