@@ -2,9 +2,7 @@ name: Tc Pipelines
 jobs:
   Job1:
     name: Job 1
-    steps: []
-    runs-on: Linux-Medium
-  Job2:
-    name: Job 2
-    steps: []
+    steps:
+      - type: script
+        script-content: echo 'success'
     runs-on: Linux-Medium
