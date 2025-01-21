@@ -1,4 +1,3 @@
-name: Tc Pipelines
 jobs:
   Job1:
     name: Job 1
@@ -6,6 +5,7 @@ jobs:
       - type: script
         script-content: echo 'success'
     runs-on: Linux-Medium
+    allow-reuse: false
   Job2:
     name: Job 2
     steps:
